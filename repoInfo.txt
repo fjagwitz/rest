@@ -1,0 +1,9 @@
+npmUrl;https://registry.npmjs.org;npmLayout;npm-default
+dockerUrl;https://registry-1.docker.io/;dockerLayout;simple-default
+rpmUrl;http://mirror.centos.org/centos/;rpmLayout;simple-default
+helmUrl;https://repo.chartcenter.io/;helmLayout;simple-default
+puppetUrl;https://forgeapi.puppetlabs.com/;puppetLayout;puppet-default
+pypiUrl;https://files.pythonhosted.org;pypiLayout;simple-default
+debianUrl;http://archive.ubuntu.com/ubuntu/;debianLayout;simple-default
+alpineUrl;http://dl-cdn.alpinelinux.org/alpine;alpineLayout;simple-default
+composerUrl;https://github.com/;composerLayout;composer-default

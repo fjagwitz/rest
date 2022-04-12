@@ -1,0 +1,15 @@
+#IMPORTANT: between the Request Information and the actual query: one line needs to be kept free
+@baseUrl = https://platform-us.prod.gcp.devopsacc.team
+@accessToken = eyJ2ZXIiOiIyIiwidHlwIjoiSldUIiwiYWxnIjoiUlMyNTYiLCJraWQiOiJMSjlhNllCeEpKTEVqdkNDQlJCVG9uQVRMcHlLOHhOdnZTWk1LYXFycWtNIn0.eyJleHQiOiJ7XCJyZXZvY2FibGVcIjpcInRydWVcIn0iLCJzdWIiOiJqZmFjQDAxZXd4N2JjN3Y5MXRuMWJuYnhhazAwbnpoXC91c2Vyc1wvZnJpZWRyaWNodmoiLCJzY3AiOiJhcHBsaWVkLXBlcm1pc3Npb25zXC9hZG1pbiIsImF1ZCI6IipAKiIsImlzcyI6ImpmZmVAMDAwIiwiZXhwIjoxNjc4MzU1MTI0LCJpYXQiOjE2NDY4MTkxMjQsImp0aSI6ImEzNjgyMGE4LWFkMmQtNDRlNS1hMWU0LTkyMzdkNjk0YzU1MSJ9.RozLqw7v7Jzgs1Iirj37ve1PUZxRbwSsQeeMWAbXuRS4S-oyrwIh_sMPKAp9vMPQdwQusrIJJIYYmt1p6hFfgAQX2UjrxeNWRWTwkmRg1oQ_iPTZTfqfIFYi7XqCV1Zvvjrs-ULpTGFEphLsmrHnZYHzrdJUIZakEphV_N3y2pS9nbp9jrS5EXwUDd2F27b0QCqEd-tMbKjH03FAH6SKH--ZYcA-0NJHtYGsBgQuslCBs2A6nny4bsSRjYlWeTprQQJhnXT7Sv4yz4rJOOj26EEMUGuhhVJE0NYmLaSmIIQCOmlw0J-o1YxzefKM4Un4EapNQGWc8TeE0ejWG0UYiQ
+
+
+
+#GET {{baseUrl}}/access/api/v1/scim/v2/Users/frodo
+#Authorization: Bearer {{accessToken}}
+#Content-Type: application/scim+json; charset=UTF-8
+
+
+GET {{baseUrl}}/xray/api/v1/repos_config/artifactory-build-info
+Authorization: Bearer {{accessToken}}
+Content-Type: application/scim+json; charset=UTF-8
+

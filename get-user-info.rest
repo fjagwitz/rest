@@ -1,0 +1,14 @@
+#IMPORTANT: between the Request Information and the actual query: one line needs to be kept free
+@baseUrl = https://eu-artifactory.jfrog.tech
+@accessToken = eyJ2ZXIiOiIyIiwidHlwIjoiSldUIiwiYWxnIjoiUlMyNTYiLCJraWQiOiJ0eUxrUkhOTGwwQlNHclVOaUZ1bDg0YWlyNWhBMnlXNjRTOTVuYVNia2s0In0.eyJleHQiOiJ7XCJyZXZvY2FibGVcIjpcInRydWVcIn0iLCJzdWIiOiJqZmFjQDAxZnJqdDdqd2YxYW1hMWRzMWF0N20wcm5xXC91c2Vyc1wvZnZqLWFkbSIsInNjcCI6ImFwcGxpZWQtcGVybWlzc2lvbnNcL2FkbWluIiwiYXVkIjoiKkAqIiwiaXNzIjoiamZmZUAwMDAiLCJleHAiOjE2NDYyMzk1NjIsImlhdCI6MTY0MzY0NzU2MiwianRpIjoiMWY5YWNkYWMtZjJlNC00NjQxLThmYTMtYzMxNzNiYmM4YTFhIn0.a8gVOd7nvojDnk8O8Q8TScIPIFdCMloOoYPf-koFd1P_4IIVuplXGCwNmjZq_j2w_qYMzIshNJ1c1vid_9bBGy1CAIVZFiuPNunP0GHo2RIoelxWRos5cvA8T5YAiB7UVe-8snoD0zqoNXEqLtBwb5UNueGtXYKq_0R8cRCeZF7FHIxGcy6YlIU7bQIx8PYQsFwC9cDGt8FTO9ruV4Tff-0U621kYnVWDuU4M0_KoD85xrHvLB1NWtwZctDGDJV-yHmkZrjCB45eYkqPoViRmsNbgwO5a2YN0w1qHyYEHBH9pb46Im2kckuXthfPCgt3U7eyWFiT7Dy2r9yTSGil1A
+
+
+#GET {{baseUrl}}/access/api/v1/scim/v2/Users/frodo
+#Authorization: Bearer {{accessToken}}
+#Content-Type: application/scim+json; charset=UTF-8
+
+
+GET {{baseUrl}}artifactory/api/security/users/
+Authorization: Bearer {{accessToken}}
+Content-Type: application/scim+json; charset=UTF-8
+
